@@ -7,15 +7,24 @@
     font-family: 'Anton';
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-size: 18px;
+    
+}
+
+.col-md-6 a, p {
     -webkit-text-stroke-width: 0.4px;
     text-shadow: #FC0 0 0 5px;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+h1{
+    padding-top: 10%;
+    text-shadow: #FC0 0 0 5px;
 }
 
 .header{
@@ -43,6 +52,20 @@ a:link, a:visited, a:hover {
     z-index: 0;
     justify-content:flex-start;
     margin-inline: 10px;
+}
+
+.textepres{
+    justify-content: center;
+    text-align: center;
+}
+
+.textepres p {
+    margin: 0;
+    padding: 0;
+}
+
+.textepres h1 {
+    padding: 0;
 }
 
 #logo{
