@@ -86,11 +86,7 @@ a:link, a:visited, a:hover {
     min-height: 100%;
   }
 
-.row{
-    margin: 15px;
-}
-
-.flex-container{
+.corps{
     margin-left: 10%;
     margin-right: 10%;
 }
