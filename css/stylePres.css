@@ -1,10 +1,26 @@
 @font-face {
-    font-family: 'Anton';
-    src: url(./Anton-Regular.ttf);
+    font-family: 'EmOne';
+    src: url(./EmOne-SemiBold.ttf) format("TrueType");
+    font-weight: normal;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: 'Qisaya';
+    src: url(./QasiyaRegular.ttf) format("TrueType");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+h1{
+    font-family: 'Qisaya' !important;
+}
+
+
 *{
-    font-family: 'Anton';
+    font-family: 'EmOne' !important;
+    color: azure;
 }
 
 body{
@@ -19,12 +35,11 @@ p {
 
 .col-md-6 a, p {
     -webkit-text-stroke-width: 0.4px;
-    text-shadow: #FC0 0 0 5px;
 }
 
 h1{
     padding-top: 10%;
-    text-shadow: #FC0 0 0 5px;
+    
 }
 
 .header{
@@ -38,11 +53,11 @@ ul button, button{
     font-size: 20px;
     border: 2px #ff970a solid;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #331741;
 }
 
 a:link, a:visited, a:hover {
-    color:#7d34eb;
+    color:#fe9aef;
 }
 
 .navbar-nav{
