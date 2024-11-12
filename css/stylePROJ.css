@@ -13,8 +13,9 @@
 }
 
 
-h1{
+h1, h2{
     font-family: 'Qisaya' !important;
+    text-align: center;
 }
 
 
@@ -86,7 +87,7 @@ a:link, a:visited, a:hover {
 }
 
 .container-fluid{
-    margin: 0 15px 30px 15px;
+    margin: 0px 15px 30px 15px;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -94,13 +95,18 @@ a:link, a:visited, a:hover {
     z-index: -1;
 }
 
+.div{
+    margin: 0px 15px 150px 15px;
+}
+
+
 .col-md-7 img{
     display:inline;
     position: relative;
     object-fit: cover;
     height: 300px;
     width: 350px;
-    margin: 5px;
+    margin: 5px 5px 50px 5px;
 }
 
 .col-lg-4 img{
@@ -110,7 +116,6 @@ a:link, a:visited, a:hover {
     object-fit: cover;
     height: 300px;
     width: 350px;
-    margin: 5px;
 }
 
 .projets img:hover{
